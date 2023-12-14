@@ -4,7 +4,8 @@
   "description": "First back and project using express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju/issues"
   },
-  "homepage": "https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju#readme"
+  "homepage": "https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
