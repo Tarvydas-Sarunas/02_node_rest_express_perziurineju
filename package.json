@@ -1,0 +1,25 @@
+{
+  "name": "02_node_rest_express_perziurineju",
+  "version": "0.0.1",
+  "description": "First back and project using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju.git"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "Sarunas Tarvydas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju/issues"
+  },
+  "homepage": "https://github.com/Tarvydas-Sarunas/02_node_rest_express_perziurineju#readme"
+}
