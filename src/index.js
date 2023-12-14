@@ -17,7 +17,13 @@ app.get("/", (req, res) => {
 });
 // route GET - /users
 app.get("/users", (req, res) => {
+  console.log("req.query ===", req.query);
   res.json(users);
+});
+// route GET - /users/1
+app.get("/users/1", (req, res) => {
+  console.log("req.query ===", req.query);
+  res.json(users[0]);
 });
 
 app.listen(PORT, () => {
