@@ -1,7 +1,10 @@
 GET http://localhost:3000/api/users
 
 ###
-GET http://localhost:3000/api/users/adults
+GET http://localhost:3000/api/users/adults?age=30
 
 ###
-GET http://localhost:3000/api/users/single?userId=5
+GET http://localhost:3000/api/users/single?userId=4
+
+###
+GET http://localhost:3000/api/users/sort?order=desc
