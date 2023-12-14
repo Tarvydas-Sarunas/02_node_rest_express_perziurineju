@@ -1,5 +1,7 @@
-POST http://localhost:8080/about.html
+GET http://localhost:3000/
 
-{
-  "name": "James"
-}
+### 
+GET http://localhost:3000/about.html
+
+### 
+GET http://localhost:3000/users
