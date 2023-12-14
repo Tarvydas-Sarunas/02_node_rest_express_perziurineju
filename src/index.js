@@ -1,10 +1,13 @@
 const express = require("express");
 const app = express(); // sukuriame musu aplikacija. GALIME SAKYTI KAD CIA SUKURIAME SERVERIO APLIKACIJA
 const cors = require("cors");
+const morgan = require("morgan");
+
 const PORT = 3000;
 
 // Middleware
 app.use(cors()); //iskvieciame cors kad leistu musu backa nuskaityti visiems
+app.use(morgan("dev")); //iskvieciame morgan kad gauciau info ar teisingai kreipiuosi ir ar teisingai gaunu info
 
 const users = [
   { name: "John", age: 25 },
